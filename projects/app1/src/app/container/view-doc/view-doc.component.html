@@ -1,0 +1,16 @@
+<main class="main">
+  <lib-header></lib-header>
+  <div class="content">
+    <h1>
+      Welcome, {{ title }}!
+    </h1>
+    <div *ngIf="joke">
+      <img src="{{ joke.icon_url }}" alt="{{ joke.value }}">
+      <div>{{ joke.value }}</div>
+    </div>
+    <button mat-raised-button color="primary"
+            (click)="getUsers()">Show Users</button>
+    <app-users-list [users]="users"></app-users-list>
+  </div>
+  <lib-footer></lib-footer>
+</main>

@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lib-tools": [
+        "dist/lib-tools/lib-tools",
+        "dist/lib-tools"
+      ],
+      "lib-vendors": [
+        "dist/lib-vendors/lib-vendors",
+        "dist/lib-vendors"
+      ],
+      "lib-views": [
+        "dist/lib-views/lib-views",
+        "dist/lib-views"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
