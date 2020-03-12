@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { IUsers } from 'projects/app1/src/app/interfaces/iusers';
+import { IUsers } from 'projects/app1/src/app/docs/interfaces/iusers';
 
 @Injectable({
   providedIn: 'root'

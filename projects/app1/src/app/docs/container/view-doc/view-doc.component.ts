@@ -1,9 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HelloService } from 'projects/lib-tools/src/lib/hello.service';
 import { LibToolsService } from 'projects/lib-tools/src/lib/lib-tools.service';
-import { IUsers } from 'projects/app1/src/app/interfaces/iusers';
+import { IUsers } from 'projects/app1/src/app/docs/interfaces/iusers';
 import { SwUpdate } from '@angular/service-worker';
-import { LogUpdateService } from 'projects/app1/src/app/services/log-update.service';
+import { LogUpdateService } from 'projects/app1/src/app/docs/services/log-update.service';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
